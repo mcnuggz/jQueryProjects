@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: #f4f4f4;
+    color: #000;
+    font-size: 14px;
+}
+
+#container {
+    width: 700px;
+    margin: 40px auto;
+    overflow: auto;
+    border: 1px solid #333;
+    background: #7db9e8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #7db9e8 0%, #2e96ea 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7db9e8 0%, #2e96ea 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7db9e8 0%, #2e96ea 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#2e96ea', GradientType=0);
+    /* IE6-9 */
+}
+
+header {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#shouts {
+    height: 200px;
+    border: 1px solid #333;
+    margin: 30px;
+    padding: 15px;
+    background: #fff;
+}
+
+#shouts li {
+    list-style: none;
+    line-height: 1.7em;
+    color: black;
+}
+
+footer {
+    padding: 10px;
+    background: #333;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+}
+
+input#name,
+input#shout {
+    padding: 3px;
+    height: 15px;
+}
+
+input#name {
+    width: 130px;
+    margin-right: 20px;
+}
+
+input#shout {
+    width: 270px;
+}
+
+input#submit {
+    padding: 5px 10px;
+    border: 0;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+}
